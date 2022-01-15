@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    max-width: 1170px;
+    margin: 3rem auto;
+    background-color: #101010;
+    color: #fff;
+  }
+  
+  * {
+    /* box-sizing: border-box; */
+  }
+  
+  h1 {
+    margin-bottom: 3rem;
+  }
+  
+  @media (min-width: 580px) {
+    .images {
+      grid-template-columns: 25% 25% 25% 25%;
+    }
+  }
+  
+  .reSize {
+    width: 20%;
+    float: left;
+    padding-top: 20px;
+  }
+  
+  #btnNext,
+  #btnPrevious {
+    background: transparent;
+    color: #609ea5;
+    padding: 8px 28px;
+    border: 0;
+    font-size: 18px;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 auto;
+  }
